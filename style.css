@@ -1,4 +1,72 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+}
+
+body {
+    width: 1440px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+background: rgba(242, 120, 92, 0.7);
+box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.logo_container {
+    display: flex;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.logo_text {
+font-family: 'Magra';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+}
+
+.nav_container {
+display: flex;
+justify-content: space-between;
+width: 527px;
+height: 21px;
+}
+
+.nav_item {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+.button_login {
+    width: 103px;
+    height: 41px;
+    background: #0D606F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+border: 0;
+
 }
