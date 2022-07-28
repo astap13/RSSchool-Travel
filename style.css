@@ -7,6 +7,11 @@ body {
     width: 1440px;
 }
 
+main {
+    background-image: url(Img/background.jpg);
+    height: 765px;
+}
+
 .header_container {
     display: flex;
     justify-content: space-between;
@@ -68,5 +73,143 @@ line-height: 21px;
 
 color: #FFFFFF;
 border: 0;
+}
 
+.title_text {
+position: relative;
+width: 892px;
+top: 122px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+margin-left: 120px;
+
+color: #FFFFFF;
+}
+
+.subtitle_text {
+    position: relative;
+    width: 723px;
+height: 24px;
+top: 146px;
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-left: 120px;
+}
+
+.search_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 892px;
+height: 95px;
+margin-left: 120px;
+top: 200px;
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+}
+
+.search_text {
+    position: relative;
+margin-left: 41px;
+width: 560px;
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+}
+
+.search_button {
+    width: 228px;
+height: 59px;
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+border: 0;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.steps_title {
+    position: relative;
+top: 80px;
+text-align: center;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    position: inherit;
+    margin-top: 120px;
+}
+
+.steps_item {
+    text-align: center;
+}
+
+.steps_item_text {
+margin-top: 30px;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #0D606F;
+}
+
+.slider_title {
+    position: relative;
+    top: 97px;
+    text-align: center;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.slider {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    width: 2520px;
+    height: 1042px;
+}
+
+.slider_item {
+position: relative;
+width: 800px;
+height: 800px;
+}
+
+.first_slider {
+    background-image: url(Img/Rectangle23.jpg);
+}
+
+.second_slider {
+    background-image: url(Img/Rectangle24.jpg);
+}
+
+.thirt_slider {
+    background-image: url(Img/Rectangle25.jpg);
 }
