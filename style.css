@@ -190,16 +190,20 @@ color: #0D606F;
 
 .slider {
     display: flex;
+    position: relative;
     flex-shrink: 0;
     flex-wrap: nowrap;
     width: 2520px;
     height: 1042px;
+    left: -540px;
+    top: 196px;
 }
 
 .slider_item {
 position: relative;
 width: 800px;
 height: 800px;
+border-radius: 16px;
 }
 
 .first_slider {
@@ -213,3 +217,56 @@ height: 800px;
 .thirt_slider {
     background-image: url(Img/Rectangle25.jpg);
 }
+
+.slider_name {
+    position: relative;
+    top: 718px;
+    left: 15px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+.ellips {
+    text-align: center;
+}
+
+.elips_item_active {
+    width: 20px;
+height: 20px;
+
+}
+.elips_item {
+    width: 20px;
+height: 20px;
+opacity: 0.5;
+}
+
+button.cta-button {
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+width: 228px;
+height: 59px;
+background: #0D606F;
+border-radius: 10px;
+border: 0;
+top: 40px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+
+
+
+
+
