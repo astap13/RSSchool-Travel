@@ -265,8 +265,82 @@ line-height: 32px;
 color: #FFFFFF;
 }
 
+.stories_title {
+    text-align: center;
+    position: relative;
+    font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #F2785C;
+top: 105px;
+}
 
+.stories_container {
+    position: relative;
+    height: 1331px;
+    background:url(Img/Rectangle33.jpg);
+    top: 173px;
+}
 
+.background_container {
+ background: rgba(255, 255, 255, 0.7);
+ height: 1280px;
+}
 
+article {
+    display: flex;
+}
 
+.stories_title_item {
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+color: #0D606F;
+margin-bottom: 24px ;
+}
+
+.stories_img {
+    width: 400px;
+height: 250px;
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+}
+
+.stories_text {
+    font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #0D606F;
+}
+
+.stories_item {
+    padding-top: 40px; 
+    width: 1160px;
+}
+
+.stories_item_container {
+    margin-left: 40px;
+}
+
+footer {
+    height: 61px;
+}
+
+.footer_text {
+text-align: center;
+align-items: center;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;}
 
