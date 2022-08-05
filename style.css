@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-body {
-    width: 1440px;
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    max-width: 1440px;
 }
 
 main {
@@ -16,7 +18,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-width: 1440px;
 height: 90px;
 left: 0px;
 top: 0px;
@@ -341,6 +342,186 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 21px;
-
 color: #FFFFFF;}
 
+.logo_mobile_container {
+    display: none;
+}
+
+.slider_mobile_container {
+    display: none;
+}
+
+@media all and (max-width: 390px) {
+    .main {
+        height: 251px;
+        background: url(Img/backgroung_mobile.jpg), linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%);
+    }
+    .logo_mobile_container {
+        text-align: right;
+        top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo_mobile {
+        position: relative;
+        left: 16px;
+        top: 45px;
+        margin: 0;
+    }
+    .menu_button {
+        margin-right: 9px;
+        position: relative;
+        top: 43px;
+    }
+
+    .header_container{
+        display: none;
+    }
+    
+    .title_text {
+        display: none;
+    }
+    .subtitle_text {
+        display: none;
+    } 
+    .search_container {
+        top: 142px;
+        width: 360px;
+        height: 48px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+        margin: 0 auto;
+    }
+
+    .search_button {
+        margin-right: 9px;
+height: 30px;
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 15px;
+    }
+
+    .search_text {
+        font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #F2785C;
+    }
+
+    .steps_container {
+        height: 153px;
+
+    }
+
+    .steps_title {
+        position: inherit;
+        padding-top: 20px;
+    font-size: 14px;
+    }
+
+    .steps {
+        margin-top: 20px;
+        width: 360px;
+        justify-content: space-between;
+    }
+
+    .steps_item_text {
+        font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+    }
+
+    .steps_item_img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .slider_title {
+    position: inherit;
+    padding-top: 80px;
+font-size: 14px;
+    }
+
+    .slider_container {
+    width: 360px;
+    height: 289px;
+    left: 15px;
+    top: 444px;
+
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .ellips {
+        display: none;
+    }
+
+    .slider_mobile_container {
+        display: block;
+        position: inherit;
+        top: 120px;
+        width: 360px;
+        height: 210px;
+        left: 15px;
+        top: 483px;
+        background-image: url(Img/background_spain.jpg);
+        border-radius: 16px;
+    }
+
+    .slider_mobile_text {
+        position: inherit;
+        padding-left: 15px;
+        padding-top: 8px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    .ellips_mobile {
+        position: relative;
+        padding-top: 156px;
+        text-align: center;
+    }
+    .elips_item_mobile_active {
+        width: 8px;
+    height: 8px;
+    
+    }
+    .elips_item_mobile {
+    opacity: 0.5;
+    }
+
+    .cta-button {
+        width: 92px;
+        height: 30px;
+    }
+
+    .cta-button_img {
+        width: 9px;
+        height: 6px;
+    }
+
+    .stories_title {
+        position: inherit;
+        top: 180pxpx;
+        font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+    }
+
+    }

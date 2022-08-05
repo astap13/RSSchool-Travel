@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -10,7 +10,12 @@
     <title>Travel</title>
 </head>
 <body>
+    <div class="wrapper">
     <main class="main">
+        <div class="logo_mobile_container">
+            <img class="logo_mobile" src="Img/Vector.svg" alt="">
+            <img class="menu_button" src="Img/eva_menu-outline.svg" alt="">
+        </div>
         <header class="header_container">
             <div class="logo_container">
                 <img src="Img/Vector.svg" alt="" class="logo">
@@ -52,6 +57,14 @@
     </section>
     <section class="slider_container">
         <h2 class="slider_title">POPULAR DESTINATIONS</h2>
+        <div class="slider_mobile_container">
+            <p class="slider_mobile_text">SPAIN</p>
+                <div class="ellips_mobile">
+                    <img src="Img/Ellipse2.svg" width="8" height="8" alt="" class="ellips_item_mobile">
+                    <img src="Img/Ellipse2.svg" width="8" height="8" alt="" class="ellips_item ellips_item_mobile_active">
+                    <img src="Img/Ellipse2.svg" width="8" height="8" alt="" class="elips_item_mobile">
+                </div>
+        </div>
         <div class="slider">
             <div class="slider_item first_slider">
                 <p class="slider_name">Spain</p>
@@ -69,7 +82,7 @@
             <img src="Img/Ellipse2.svg" alt="" class="elips_item">
         </div>
         <button class="cta-button">
-            <img src="Img/Strela.svg" alt="">
+            <img class="cta-button_img" src="Img/Strela.svg" alt="">
             <p>Find More</p>
         </button>
     </section>
@@ -113,5 +126,6 @@
                 <p class="footer_text">All Rights Reserved © Travel Portal</p>
             </footer>
     </section>
+</div>
 </body>
 </html>
