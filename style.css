@@ -19,7 +19,6 @@ main {
     justify-content: space-between;
     align-items: center;
 height: 90px;
-left: 0px;
 top: 0px;
 background: rgba(242, 120, 92, 0.7);
 box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
@@ -49,6 +48,11 @@ justify-content: space-between;
 width: 527px;
 height: 21px;
 }
+
+.krestik {
+    display: none;
+}
+
 
 .nav_item {
     font-family: 'Red Hat Text';
@@ -247,7 +251,7 @@ height: 20px;
 opacity: 0.5;
 }
 
-button.cta-button {
+.cta-button {
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -374,9 +378,49 @@ color: #FFFFFF;}
         position: relative;
         top: 43px;
     }
+    .logo_container {
+        display: none;
+    }
+    .button_login {
+        display: none;
+    }
 
     .header_container{
-        display: none;
+        position: absolute;
+        align-items: flex-start;
+        width: 165px;
+        height: 250px;
+        background: #F2785C;
+        box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+        border-radius: 10px;
+        transform: translateX(-100%);
+        transition: transform 0.5s; 
+    }
+    .header_container.active {
+        transform: translateX(0);
+    }
+
+    .krestik {
+        display: block;
+        position: absolute;
+        left: 15.5px;
+        top: 15.5px;
+    }
+
+    .nav_container {
+        flex-direction: column;
+        margin-top: 44px;
+
+        
+        
+    }
+
+    .nav_item {
+        font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
     }
     
     .title_text {
@@ -385,7 +429,13 @@ color: #FFFFFF;}
     .subtitle_text {
         display: none;
     } 
+
+.section_title {
+    position: inherit;
+    margin-top: 100px;
+}
     .search_container {
+        position: inherit;
         top: 142px;
         width: 360px;
         height: 48px;
@@ -408,6 +458,7 @@ line-height: 15px;
     }
 
     .search_text {
+        position: inherit;
         font-family: 'Aleo';
 font-style: italic;
 font-weight: 400;
@@ -509,6 +560,9 @@ font-size: 14px;
     .cta-button {
         width: 92px;
         height: 30px;
+        font-weight: 500;
+font-size: 11px;
+line-height: 15px;
     }
 
     .cta-button_img {
@@ -518,10 +572,46 @@ font-size: 14px;
 
     .stories_title {
         position: inherit;
-        top: 180pxpx;
+        padding-top: 156px;        
         font-weight: 500;
-font-size: 14px;
-line-height: 19px;
+        font-size: 14px;
+    }
+    
+    .stories_container {
+        top: 37px;
+        background-image: url(Img/mobile_background.jpg);
     }
 
+    .background_container {
+        
+    }
+
+    .stories_img {
+        width: 155px;
+        height: 130px;
+    }
+
+    .stories_item_container {
+        margin-left: 10px;
+    }
+
+    .stories_item {
+        width: 360px;
+        padding-top: 10px;
+    }
+
+    .stories_title_item {
+        font-size: 11px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .stories_text {
+        font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+
+    }
     }
